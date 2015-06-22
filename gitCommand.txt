@@ -6,3 +6,10 @@ git log
 git status
 git diff
 git diff --cached
+
+ssh -keygen -t rsa -C "s.manunggal@.gmail.com"
+Enter the password then 
+
+After enter SSH key in the github.com using id_rsa.pub after remake from the previous step
+
+ssh -t git@github.com
